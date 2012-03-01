@@ -2,10 +2,10 @@
 /**
  * Srikandi PHP Framework
  *
- * @package        	Srikandi
- * @category    	Framework
- * @author			dwi.setiyadi@gmail.com
- * @version			0.3
+ * @package      Srikandi
+ * @category     Framework
+ * @author       dwi.setiyadi@gmail.com
+ * @version      0.3
  */
  
 // Framework Configuration
