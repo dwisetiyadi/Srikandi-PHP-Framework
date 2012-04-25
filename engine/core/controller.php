@@ -4,7 +4,7 @@
  *
  * @package        	Srikandi
  * @category    	Framework
- * @author			dwi.setiyadi@gmail.com
+ * @author		dwi.setiyadi@gmail.com
  */
 
 require_once(SYS.'core/launcher.php');
