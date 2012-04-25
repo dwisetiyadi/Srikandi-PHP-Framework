@@ -4,7 +4,7 @@
  *
  * @package        	Srikandi
  * @category    	Framework
- * @author			dwi.setiyadi@gmail.com
+ * @author		dwi.setiyadi@gmail.com
  */
 
 class Launcher
@@ -24,7 +24,6 @@ class Launcher
 		} else {
 			return $this->$calledClass = new $name();
 		}
-		unset($name, $calledClass);
 	}
 	
 	public function view($name = '', $data = array(), $return = FALSE) {
@@ -81,7 +80,6 @@ class Launcher
 				return $this->$calledClass = new $name($config);
 			}
 		}
-		unset($name, $calledClass);
 	}
 	
 	public function helper($name = '') {
