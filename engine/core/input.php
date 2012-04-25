@@ -4,7 +4,7 @@
  *
  * @package        	Srikandi
  * @category    	Framework
- * @author			dwi.setiyadi@gmail.com
+ * @author		dwi.setiyadi@gmail.com
  */
 
 class Input
@@ -24,9 +24,8 @@ class Input
 		
 		if (isset($params[$string])) {
 			return $params[$string];
-		} else {
-			return '';
 		}
+		return '';
 	}
 	
 	public function post($string = '', $type = 'general') {
